@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74030524-DE27-4A73-91E5-F694395D5C55}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NeodataNet</RootNamespace>
+    <AssemblyName>NeodataNet</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>12.0</OldToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>None</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mobile">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HERMOSA\Imágenes\8 caminos.png" />
+    <Content Include="HERMOSA\Imágenes\Dormir a tiempo.png" />
+    <Content Include="HERMOSA\Imágenes\En círculos.png" />
+    <Content Include="HERMOSA\Imágenes\Gris.png" />
+    <Content Include="HERMOSA\Imágenes\Hermosa.png" />
+    <Content Include="HERMOSA\Imágenes\Los acantilados.png" />
+    <Content Include="HERMOSA\Imágenes\Ni soñando.png" />
+    <Content Include="HERMOSA\Imágenes\Ojos.png" />
+    <Content Include="HERMOSA\Imágenes\Pogo-1.png" />
+    <Content Include="HERMOSA\Imágenes\Pogo-2.png" />
+    <Content Include="HERMOSA\Imágenes\Suelta.png" />
+    <Content Include="HERMOSA\logo.png" />
+    <Content Include="HERMOSA\_title.inc" />
+    <Content Include="PASADO_MAÑANA\guion_tecnico.html" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Aprender del olvido.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Atravesar.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Cortar.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Insomnio.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Lo frágil del sueño-1.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Lo frágil del sueño-2.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Los perdidos.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Los pájaros.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Otra vez.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Refugio.png" />
+    <Content Include="PASADO_MAÑANA\Imágenes\Tormenta.png" />
+    <Content Include="PASADO_MAÑANA\letras.html" />
+    <Content Include="PASADO_MAÑANA\logo.png" />
+    <Content Include="PASADO_MAÑANA\multimedia.html" />
+    <Content Include="PASADO_MAÑANA\storyboard_completo.html" />
+    <Content Include="PASADO_MAÑANA\_title.inc" />
+    <Content Include="TRECE\Imágenes\Al filo.png" />
+    <Content Include="TRECE\Imágenes\Alejandra-2.png" />
+    <Content Include="TRECE\Imágenes\Alejandra-1.png" />
+    <Content Include="TRECE\Imágenes\Arriba.png" />
+    <Content Include="TRECE\Imágenes\Cargas.png" />
+    <Content Include="TRECE\Imágenes\Cruzando el mar.png" />
+    <Content Include="TRECE\Imágenes\Hoy no es el día.png" />
+    <Content Include="TRECE\Imágenes\Laika libre.png" />
+    <Content Include="TRECE\Imágenes\Las mentiras.png" />
+    <Content Include="TRECE\Imágenes\Levitar.png" />
+    <Content Include="TRECE\Imágenes\Solo lo nuevo atrae.png" />
+    <Content Include="HERMOSA\multimedia.html" />
+    <Content Include="TRECE\logo.png" />
+    <Content Include="TRECE\multimedia.html" />
+    <Content Include="TRECE\storyboard_completo.html" />
+    <Content Include="TRECE\Videos\Alejandra-1080p-standard.mp4" />
+    <Content Include="TRECE\Videos\Hoy no es el día-1080p-standard.mp4" />
+    <Content Include="TRECE\Videos\Laika Libre-1080p-standard.mp4" />
+    <Content Include="TRECE\Videos\Levitar-1080p-standard.mp4" />
+    <Content Include="fnc.js" />
+    <Content Include="TRECE\_title.inc" />
+    <Content Include="_menu_inner.inc" />
+    <Content Include="_head.inc" />
+    <Content Include="index.html" />
+    <Content Include="HERMOSA\analisis.html" />
+    <Content Include="HERMOSA\guion_general.html" />
+    <Content Include="HERMOSA\guion_tecnico.html" />
+    <Content Include="HERMOSA\index.html" />
+    <Content Include="HERMOSA\letras.html" />
+    <Content Include="HERMOSA\storyboard_completo.html" />
+    <Content Include="style.css" />
+    <Content Include="PASADO_MAÑANA\analisis.html" />
+    <Content Include="PASADO_MAÑANA\guion_general.html" />
+    <Content Include="PASADO_MAÑANA\index.html" />
+    <Content Include="TRECE\analisis.html" />
+    <Content Include="TRECE\guion_general.html" />
+    <Content Include="TRECE\guion_tecnico.html" />
+    <Content Include="TRECE\index.html" />
+    <Content Include="TRECE\letras.html" />
+    <Content Include="HERMOSA\storyboard.pdf" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="PASADO_MAÑANA\storyboard.pdf" />
+    <Content Include="TRECE\storyboard.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HERMOSA\Videos\" />
+    <Folder Include="PASADO_MAÑANA\Videos\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50481/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
